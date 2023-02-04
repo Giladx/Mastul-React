@@ -27,19 +27,19 @@ const Header = (props) => {
               data-role="Nav"
               className="header-nav"
             >
-              <a href={props.link_1} className="header-link01">
+              <a href={props.link_1} data-aos="fade" className="header-link01">
                 {props.Linktext1}
               </a>
-              <a href={props.link_2} className="header-link02">
+              <a href={props.link_2} data-aos="fade" className="header-link02">
                 {props.LinkText2}
               </a>
-              <a href={props.link_3} className="header-link03">
+              <a href={props.link_3} data-aos="fade" className="header-link03">
                 {props.LinkText3}
               </a>
-              <a href={props.link_4} className="header-link04">
+              <a href={props.link_4} data-aos="fade" className="header-link04">
                 {props.LinkText4}
               </a>
-              <a href={props.link_5} className="header-link05">
+              <a href={props.link_5} data-aos="fade" className="header-link05">
                 {props.LinkText5}
               </a>
             </nav>

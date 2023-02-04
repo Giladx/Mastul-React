@@ -33,7 +33,7 @@ const Home = (props) => {
           LoginButtonText="Contact"
           NavLink2="https://mayaroyale.com"
         ></Header>
-        <div id="hero" className="home-hero">
+        <div id="hero" data-aos="fade" className="home-hero">
           <span data-aos="fade-down" className="home-text">
             <span className="home-text1">Lorem ipsum dolor sit amet</span>
           </span>
