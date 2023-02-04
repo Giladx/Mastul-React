@@ -25,15 +25,8 @@ const About = (props) => {
           />
         </Head>
         <Header></Header>
-        <div className="about-hero">
-          <span className="about-text">
-            <span className="about-text1">Lorem ipsum dolor sit amet</span>
-          </span>
-          <h1 className="about-text2">Magnificent things are very simple</h1>
-          <button className="about-button button">Get Started</button>
-        </div>
         <div className="about-blog">
-          <h1 className="about-text3">This Week Shows</h1>
+          <h1 className="about-text">This Week Shows</h1>
           <div className="about-container01">
             <BlogPostCard2
               profile_src="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
@@ -119,47 +112,6 @@ const About = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-black);
           }
-          .about-hero {
-            width: 100%;
-            display: flex;
-            padding: var(--dl-space-space-threeunits);
-            transform: scale(2, 2);
-            min-height: 80vh;
-            align-items: center;
-            flex-direction: column;
-            background-size: cover;
-            justify-content: center;
-            background-image: url('/playground_assets/2_16%20-%20foto-1500h.jpg');
-            background-position: center;
-          }
-          .about-text {
-            color: var(--dl-color-gray-black);
-            font-size: 0.75rem;
-            letter-spacing: 2px;
-          }
-          .about-text1 {
-            text-transform: uppercase;
-          }
-          .about-text2 {
-            color: var(--dl-color-gray-black);
-            font-size: 3rem;
-            max-width: 450px;
-            margin-top: var(--dl-space-space-twounits);
-            text-align: center;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .about-button {
-            color: var(--dl-color-gray-white);
-            transition: 0.3s;
-            padding-top: var(--dl-space-space-unit);
-            padding-left: var(--dl-space-space-twounits);
-            padding-right: var(--dl-space-space-twounits);
-            padding-bottom: var(--dl-space-space-unit);
-            background-color: var(--dl-color-gray-black);
-          }
-          .about-button:hover {
-            transform: scale(1.02);
-          }
           .about-blog {
             width: 100%;
             display: flex;
@@ -170,7 +122,7 @@ const About = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .about-text3 {
+          .about-text {
             color: var(--dl-color-gray-white);
             font-size: 4em;
             margin-bottom: var(--dl-space-space-twounits);
@@ -276,10 +228,6 @@ const About = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .about-hero {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
             .about-blog {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
@@ -303,16 +251,6 @@ const About = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .about-hero {
-              padding: var(--dl-space-space-twounits);
-              padding-top: var(--dl-space-space-unit);
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-unit);
-            }
-            .about-text2 {
-              color: var(--dl-color-gray-black);
-            }
             .about-blog {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
