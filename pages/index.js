@@ -166,11 +166,12 @@ const Home = (props) => {
             padding: var(--dl-space-space-threeunits);
             min-height: auto;
             align-items: center;
-            flex-direction: column;
-            background-size: cover;
+            flex-direction: inherit;
+            background-size: auto;
             justify-content: center;
             background-image: url('/playground_assets/24small1-1000h.webp');
             background-position: center;
+            background-attachment: fixed;
           }
           .home-text {
             color: var(--dl-color-gray-white);
