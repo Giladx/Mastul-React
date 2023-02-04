@@ -5,7 +5,10 @@ import PropTypes from 'prop-types'
 const FeatureCard4 = (props) => {
   return (
     <>
-      <div className={`feature-card4-feature-card ${props.rootClassName} `}>
+      <div
+        data-aos="fade-right"
+        className={`feature-card4-feature-card ${props.rootClassName} `}
+      >
         <a
           href={props.IconLink}
           target="_blank"

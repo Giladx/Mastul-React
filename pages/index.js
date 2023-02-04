@@ -34,18 +34,22 @@ const Home = (props) => {
           NavLink2="https://mayaroyale.com"
         ></Header>
         <div id="hero" className="home-hero">
-          <span className="home-text">
+          <span data-aos="fade-down" className="home-text">
             <span className="home-text1">Lorem ipsum dolor sit amet</span>
           </span>
-          <h1 className="home-text2">Magnificent things are very simple</h1>
-          <button className="home-button button">Order Now</button>
+          <h1 data-aos="fade-down" className="home-text2">
+            Magnificent things are very simple
+          </h1>
+          <button data-aos="fade-up" className="home-button button">
+            Order Now
+          </button>
         </div>
         <div id="features" className="home-features">
-          <h1 className="home-text3">
+          <h1 data-aos="fade-right" className="home-text3">
             <span>Discover Mas&apos;Tul</span>
             <br></br>
           </h1>
-          <div className="home-separator"></div>
+          <div data-aos="fade-right" className="home-separator"></div>
           <div className="home-container01">
             <div className="home-container02">
               <FeatureCard4
@@ -69,6 +73,7 @@ const Home = (props) => {
               alt="image"
               src="https://images.unsplash.com/photo-1496318447583-f524534e9ce1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHx0cm9waWMlMjBkcmlua3xlbnwwfHx8fDE2NzU0MzQ3OTg&amp;ixlib=rb-4.0.3&amp;w=500"
               loading="lazy"
+              data-aos="fade-left"
               className="home-image"
             />
           </div>
