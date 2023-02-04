@@ -29,6 +29,7 @@ const Home = (props) => {
       </Helmet>
       <Header
         link_1="/about"
+        link_2="https://mayaroyale.com"
         rootClassName="header-root-class-name"
         LoginButtonText="Contact"
       ></Header>

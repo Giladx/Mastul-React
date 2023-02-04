@@ -26,63 +26,28 @@ const Header = (props) => {
             data-role="Nav"
             className="header-nav"
           >
-            <a
-              href={props.link_1}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="header-link"
-            >
+            <a href={props.link_1} className="header-link">
               {props.Linktext1}
             </a>
-            <a
-              href={props.link_2}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="header-link1"
-            >
+            <a href={props.link_2} className="header-link01">
               {props.LinkText2}
             </a>
-            <a
-              href={props.link_3}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="header-link2"
-            >
+            <a href={props.link_3} className="header-link02">
               {props.LinkText3}
             </a>
-            <a
-              href={props.link_4}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="header-link3"
-            >
+            <a href={props.link_4} className="header-link03">
               {props.LinkText4}
             </a>
-            <a
-              href={props.link_5}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="header-link4"
-            >
+            <a href={props.link_5} className="header-link04">
               {props.LinkText5}
             </a>
           </nav>
         </div>
         <div data-thq="thq-navbar-btn-group" className="header-btn-group">
-          <a
-            href={props.ButtonLink1}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="header-login button"
-          >
+          <a href={props.ButtonLink1} className="header-login button">
             {props.ButtonText1}
           </a>
-          <a
-            href={props.ButtonLink2}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="header-register button"
-          >
+          <a href={props.ButtonLink2} className="header-register button">
             {props.ButtonText}
           </a>
         </div>
@@ -122,29 +87,42 @@ const Header = (props) => {
               data-role="Nav"
               className="header-nav2"
             >
-              <Link to="/about" className="header-navlink2">
-                {props.NavLink1}
-              </Link>
-              <span className="header-text">{props.NavLink2}</span>
-              <span className="header-text1">{props.NavLink3}</span>
-              <span className="header-text2">{props.NavLink4}</span>
-              <span className="header-text3">{props.NavLink5}</span>
-            </nav>
-            <div className="header-container1">
               <a
-                href={props.ButtonLink3}
+                href={props.MLink1}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="header-login1 button"
+                className="header-link05"
               >
-                {props.LoginButtonText}
+                {props.NavLink1}
+              </a>
+              <a href={props.MLink2} className="header-link06">
+                {props.NavLink2}
+              </a>
+              <a href={props.MLink3} className="header-link07">
+                {props.NavLink3}
               </a>
               <a
-                href={props.ButtonLink4}
+                href={props.MLink4}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="header-register1 button"
+                className="header-link08"
               >
+                {props.NavLink4}
+              </a>
+              <a
+                href={props.MLink5}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="header-link09"
+              >
+                {props.NavLink5}
+              </a>
+            </nav>
+            <div className="header-container1">
+              <a href={props.ButtonLink3} className="header-login1 button">
+                {props.LoginButtonText}
+              </a>
+              <a href={props.ButtonLink4} className="header-register1 button">
                 {props.ButtonText3}
               </a>
             </div>
@@ -185,8 +163,10 @@ Header.defaultProps = {
   NavLink5: 'Stuff',
   LinkText4: 'Club',
   LinkText2: 'Resort',
+  MLink1: '',
   link_1: '',
   Linktext1: 'About',
+  MLink3: '',
   ButtonLink1: '',
   link_3: '',
   link_4: '',
@@ -201,8 +181,11 @@ Header.defaultProps = {
   ButtonLink3: '',
   NavLink4: 'Club',
   rootClassName: '',
+  MLink2: '',
   link_5: '',
   LoginButtonText: 'Login',
+  MLink4: '',
+  MLink5: '',
   LogoImage: '/playground_assets/mastulogo-1500h.webp',
 }
 
@@ -216,8 +199,10 @@ Header.propTypes = {
   NavLink5: PropTypes.string,
   LinkText4: PropTypes.string,
   LinkText2: PropTypes.string,
+  MLink1: PropTypes.string,
   link_1: PropTypes.string,
   Linktext1: PropTypes.string,
+  MLink3: PropTypes.string,
   ButtonLink1: PropTypes.string,
   link_3: PropTypes.string,
   link_4: PropTypes.string,
@@ -232,8 +217,11 @@ Header.propTypes = {
   ButtonLink3: PropTypes.string,
   NavLink4: PropTypes.string,
   rootClassName: PropTypes.string,
+  MLink2: PropTypes.string,
   link_5: PropTypes.string,
   LoginButtonText: PropTypes.string,
+  MLink4: PropTypes.string,
+  MLink5: PropTypes.string,
   LogoImage: PropTypes.string,
 }
 
