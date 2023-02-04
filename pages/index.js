@@ -161,13 +161,13 @@ const Home = (props) => {
           }
           .home-hero {
             width: 100%;
-            height: auto;
+            height: 800;
             display: flex;
             padding: var(--dl-space-space-threeunits);
             min-height: auto;
             align-items: center;
             flex-direction: inherit;
-            background-size: contain;
+            background-size: cover;
             justify-content: center;
             background-image: 2e5e56be-160a-431f-b1ba-b8a8e0e3a9e0;
             background-repeat: no-repeat;
@@ -379,9 +379,6 @@ const Home = (props) => {
             }
           }
           @media (max-width: 991px) {
-            .home-hero {
-              height: 250px;
-            }
             .home-text2 {
               color: var(--dl-color-gray-white);
               font-size: 4rem;
