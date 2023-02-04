@@ -33,7 +33,9 @@ const About = (props) => {
           MLink4="https://mas-tul.com"
         ></Header>
         <div className="about-blog">
-          <h1 className="about-text">This Week Shows</h1>
+          <h1 data-aos="fade-down" className="about-text">
+            This Week Shows
+          </h1>
           <div className="about-container01">
             <BlogPostCard2
               profile_src="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
