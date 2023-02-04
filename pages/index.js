@@ -31,6 +31,7 @@ const Home = (props) => {
           rootClassName="header-root-class-name"
           LoginButtonText="Contact"
           MLink2="https://www.mayaroyale.com/"
+          link_2="https://www.mayaroyale.com/"
         ></Header>
         <div id="hero" data-aos="fade" className="home-hero">
           <span data-aos="fade-down" className="home-text">
