@@ -161,15 +161,16 @@ const Home = (props) => {
           }
           .home-hero {
             width: 100%;
-            height: 600px;
+            height: 300px;
             display: flex;
             padding: var(--dl-space-space-threeunits);
+            transform: scale(1);
             min-height: auto;
             align-items: center;
             flex-direction: inherit;
-            background-size: contain;
+            background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/24small1-1500w.webp');
+            background-image: 2e5e56be-160a-431f-b1ba-b8a8e0e3a9e0;
             background-position: top;
             background-attachment: fixed;
           }
@@ -327,7 +328,8 @@ const Home = (props) => {
           .home-testimonial {
             width: 100%;
             display: flex;
-            background-size: contain;
+            transform: scale(1);
+            background-size: cover;
             justify-content: center;
             background-image: url('/playground_assets/2_16%20-%20foto-1500w.jpg');
             background-position: center;
@@ -363,10 +365,6 @@ const Home = (props) => {
             justify-content: space-between;
           }
           @media (max-width: 1600px) {
-            .home-hero {
-              background-size: cover;
-              background-image: url('/playground_assets/24small1-1500w.webp');
-            }
             .home-text2 {
               color: var(--dl-color-gray-white);
             }
@@ -381,6 +379,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 991px) {
+            .home-hero {
+              height: 250px;
+            }
             .home-text2 {
               color: var(--dl-color-gray-white);
               font-size: 4rem;
