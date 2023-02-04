@@ -24,7 +24,10 @@ const About = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/af469c8d-b822-45c5-80f3-94b54b452234/4994a0a3-9f14-4ef6-9977-9580ab924499?org_if_sml=1&amp;q=80"
           />
         </Head>
-        <Header></Header>
+        <Header
+          LogoImage="/playground_assets/mastulogo-1500h.webp"
+          NavLink2="https://mayaroyale.com"
+        ></Header>
         <div className="about-blog">
           <h1 className="about-text">This Week Shows</h1>
           <div className="about-container01">
