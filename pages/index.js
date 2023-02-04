@@ -26,7 +26,11 @@ const Home = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/af469c8d-b822-45c5-80f3-94b54b452234/4994a0a3-9f14-4ef6-9977-9580ab924499?org_if_sml=1&amp;q=80"
           />
         </Head>
-        <Header rootClassName="header-root-class-name"></Header>
+        <Header
+          rootClassName="header-root-class-name"
+          link_1="/about"
+          LoginButtonText="Contact"
+        ></Header>
         <div id="hero" className="home-hero">
           <span className="home-text">
             <span className="home-text1">Lorem ipsum dolor sit amet</span>
