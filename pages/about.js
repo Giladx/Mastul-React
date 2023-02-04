@@ -129,6 +129,7 @@ const About = (props) => {
           <button className="about-button button">Get Started</button>
         </div>
         <div className="about-blog">
+          <h1 className="about-text12">This Week Shows</h1>
           <div className="about-container03">
             <BlogPostCard2
               profile_src="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
@@ -213,33 +214,33 @@ const About = (props) => {
                   />
                 </a>
               </Link>
-              <span className="about-text12">Resort | Restaurant | Club </span>
+              <span className="about-text13">Resort | Restaurant | Club </span>
             </div>
             <div className="about-links-container">
               <div className="about-container13">
                 <div className="about-product-container">
-                  <span className="about-text13">Product</span>
-                  <span className="about-text14">Features</span>
-                  <span className="about-text15">Pricing</span>
-                  <span className="about-text16">Tutorials</span>
-                  <span className="about-text17">Releases</span>
+                  <span className="about-text14">Product</span>
+                  <span className="about-text15">Features</span>
+                  <span className="about-text16">Pricing</span>
+                  <span className="about-text17">Tutorials</span>
+                  <span className="about-text18">Releases</span>
                 </div>
                 <div className="about-company-container">
-                  <span className="about-text18">Company</span>
-                  <span className="about-text19">About</span>
-                  <span className="about-text20">Careers</span>
-                  <span className="about-text21">Contact</span>
-                  <span className="about-text22">Blog</span>
+                  <span className="about-text19">Company</span>
+                  <span className="about-text20">About</span>
+                  <span className="about-text21">Careers</span>
+                  <span className="about-text22">Contact</span>
+                  <span className="about-text23">Blog</span>
                 </div>
               </div>
               <div className="about-container14">
                 <div className="about-contact">
-                  <span className="about-text23">Contact Us</span>
-                  <span className="about-text24">hello@maya.resort</span>
-                  <span className="about-text25">+123 (4567) 890</span>
+                  <span className="about-text24">Contact Us</span>
+                  <span className="about-text25">hello@maya.resort</span>
+                  <span className="about-text26">+123 (4567) 890</span>
                 </div>
                 <div className="about-socials">
-                  <span className="about-text26">Follow Us</span>
+                  <span className="about-text27">Follow Us</span>
                   <div className="about-icon-group1">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
@@ -265,7 +266,7 @@ const About = (props) => {
             </div>
           </div>
           <div className="about-separator"></div>
-          <span className="about-text27">
+          <span className="about-text28">
             © 2021 Mas&apos;Tul, All Rights Reserved.
           </span>
         </footer>
@@ -279,6 +280,7 @@ const About = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-gray-black);
           }
           .about-navbar-interactive {
             width: 100%;
@@ -493,8 +495,14 @@ const About = (props) => {
             padding: var(--dl-space-space-threeunits);
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
+            padding-top: 48px;
             flex-direction: column;
             justify-content: space-between;
+          }
+          .about-text12 {
+            color: var(--dl-color-gray-white);
+            font-size: 4em;
+            margin-bottom: var(--dl-space-space-twounits);
           }
           .about-container03 {
             display: flex;
@@ -624,7 +632,7 @@ const About = (props) => {
             height: 4rem;
             text-decoration: none;
           }
-          .about-text12 {
+          .about-text13 {
             color: var(--dl-color-gray-white);
             margin-top: var(--dl-space-space-oneandhalfunits);
           }
@@ -649,14 +657,10 @@ const About = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .about-text13 {
+          .about-text14 {
             color: var(--dl-color-gray-white);
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .about-text14 {
-            color: var(--dl-color-gray-white);
-            margin-bottom: var(--dl-space-space-unit);
           }
           .about-text15 {
             color: var(--dl-color-gray-white);
@@ -668,6 +672,10 @@ const About = (props) => {
           }
           .about-text17 {
             color: var(--dl-color-gray-white);
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .about-text18 {
+            color: var(--dl-color-gray-white);
           }
           .about-company-container {
             flex: 0 0 auto;
@@ -676,14 +684,10 @@ const About = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .about-text18 {
+          .about-text19 {
             color: var(--dl-color-gray-white);
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .about-text19 {
-            color: var(--dl-color-gray-white);
-            margin-bottom: var(--dl-space-space-unit);
           }
           .about-text20 {
             color: var(--dl-color-gray-white);
@@ -694,6 +698,10 @@ const About = (props) => {
             margin-bottom: var(--dl-space-space-unit);
           }
           .about-text22 {
+            color: var(--dl-color-gray-white);
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .about-text23 {
             color: var(--dl-color-gray-white);
           }
           .about-container14 {
@@ -709,16 +717,16 @@ const About = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .about-text23 {
+          .about-text24 {
             color: var(--dl-color-gray-white);
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-text24 {
+          .about-text25 {
             color: var(--dl-color-gray-white);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-text25 {
+          .about-text26 {
             color: var(--dl-color-gray-white);
           }
           .about-socials {
@@ -727,7 +735,7 @@ const About = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .about-text26 {
+          .about-text27 {
             color: var(--dl-color-gray-white);
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -762,7 +770,7 @@ const About = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             background-color: var(--dl-color-gray-900);
           }
-          .about-text27 {
+          .about-text28 {
             color: var(--dl-color-gray-white);
             align-self: center;
           }
@@ -931,7 +939,7 @@ const About = (props) => {
             .about-image1 {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .about-text12 {
+            .about-text13 {
               margin-top: var(--dl-space-space-twounits);
               text-align: center;
               margin-bottom: var(--dl-space-space-twounits);
@@ -1022,7 +1030,7 @@ const About = (props) => {
             .about-image1 {
               margin-bottom: 0px;
             }
-            .about-text12 {
+            .about-text13 {
               margin-top: var(--dl-space-space-twounits);
               margin-bottom: var(--dl-space-space-twounits);
             }
@@ -1042,7 +1050,7 @@ const About = (props) => {
               align-items: flex-start;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .about-text27 {
+            .about-text28 {
               text-align: center;
             }
           }

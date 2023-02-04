@@ -41,6 +41,8 @@ const BlogPostCard2 = (props) => {
             box-shadow: 4px 4px 10px 0px rgba(18, 18, 18, 0.1);
             transition: 0.3s;
             align-items: stretch;
+            border-color: var(--dl-color-gray-white);
+            border-width: 1px;
             flex-direction: row;
             justify-content: space-between;
           }
@@ -63,6 +65,7 @@ const BlogPostCard2 = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
+            background-color: var(--dl-color-gray-black);
           }
           .blog-post-card2-container1 {
             width: 100%;
@@ -73,19 +76,20 @@ const BlogPostCard2 = (props) => {
             justify-content: space-between;
           }
           .blog-post-card2-text {
-            color: var(--dl-color-gray-500);
+            color: var(--dl-color-gray-900);
             font-weight: 600;
             text-transform: uppercase;
           }
           .blog-post-card2-text1 {
-            color: var(--dl-color-gray-500);
+            color: var(--dl-color-gray-white);
             font-weight: 300;
           }
           .blog-post-card2-text2 {
+            color: var(--dl-color-gray-white);
             margin-bottom: var(--dl-space-space-twounits);
           }
           .blog-post-card2-text3 {
-            color: var(--dl-color-gray-500);
+            color: var(--dl-color-gray-white);
             font-size: 1.25rem;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -112,7 +116,7 @@ const BlogPostCard2 = (props) => {
             margin-left: var(--dl-space-space-halfunit);
           }
           .blog-post-card2-text5 {
-            color: var(--dl-color-gray-black);
+            color: var(--dl-color-gray-white);
             font-style: normal;
             font-weight: 500;
           }
