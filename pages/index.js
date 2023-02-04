@@ -32,6 +32,7 @@ const Home = (props) => {
           LoginButtonText="Contact"
           MLink2="https://www.mayaroyale.com/"
           link_2="https://www.mayaroyale.com/"
+          MLink1="/about"
         ></Header>
         <div id="hero" data-aos="fade" className="home-hero">
           <span data-aos="fade-down" className="home-text">

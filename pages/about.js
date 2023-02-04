@@ -32,6 +32,7 @@ const About = (props) => {
           link_4="https://mas-tul.com"
           MLink4="https://mas-tul.com"
           MLogoImage="/playground_assets/mastulogo2-1500h.webp"
+          MLink1="/about"
         ></Header>
         <div className="about-blog">
           <h1 data-aos="fade-down" className="about-text">
