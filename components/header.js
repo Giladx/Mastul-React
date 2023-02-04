@@ -102,11 +102,11 @@ const Header = (props) => {
                 </a>
               </nav>
               <div className="header-container1">
-                <a href={props.ButtonLink3} className="header-login1 button">
-                  {props.LoginButtonText}
-                </a>
+                <Link href="/contact">
+                  <a className="header-link12 button">{props.ButtonText3}</a>
+                </Link>
                 <a href={props.ButtonLink4} className="header-register1 button">
-                  {props.ButtonText3}
+                  {props.ButtonText}
                 </a>
               </div>
             </div>
@@ -307,7 +307,7 @@ const Header = (props) => {
             align-items: center;
             flex-direction: row;
           }
-          .header-login1 {
+          .header-link12 {
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
@@ -416,7 +416,7 @@ const Header = (props) => {
               color: var(--dl-color-gray-white);
               font-size: 4em;
             }
-            .header-login1 {
+            .header-link12 {
               color: var(--dl-color-gray-white);
               font-size: 2em;
               border-color: var(--dl-color-gray-white);
@@ -495,7 +495,7 @@ const Header = (props) => {
               color: var(--dl-color-gray-white);
               font-size: 3em;
             }
-            .header-login1 {
+            .header-link12 {
               color: var(--dl-color-gray-white);
               border-color: var(--dl-color-gray-white);
               background-color: var(--dl-color-gray-black);
@@ -514,7 +514,7 @@ const Header = (props) => {
 
 Header.defaultProps = {
   ButtonText1: 'Contact',
-  ButtonText3: 'Order',
+  ButtonText3: 'Contact',
   LogoAlt: 'logo',
   NavLink3: 'Restaurant',
   ButtonLink2: '',

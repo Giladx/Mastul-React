@@ -33,6 +33,7 @@ const About = (props) => {
           MLink1="/about"
           link_4="https://mas-tul.com"
           MLink2="https://mayaroyale.com"
+          ButtonLink1="/contact"
         ></Header>
         <div className="about-blog">
           <h1 data-aos="fade-down" className="about-text">

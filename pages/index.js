@@ -33,6 +33,7 @@ const Home = (props) => {
           MLink2="https://www.mayaroyale.com/"
           link_2="https://www.mayaroyale.com/"
           MLink1="/about"
+          ButtonLink1="/contact"
         ></Header>
         <div id="hero" data-aos="fade" className="home-hero">
           <span data-aos="fade-down" className="home-text">

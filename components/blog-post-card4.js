@@ -113,6 +113,10 @@ const BlogPostCard4 = (props) => {
             margin-bottom: 48px;
           }
 
+          .blog-post-card4-root-class-name11 {
+            margin-bottom: 48px;
+          }
+
           @media (max-width: 1600px) {
             .blog-post-card4-blog-post-card {
               box-shadow: 7px 7px 25px 0px rgba(210, 210, 210, 0.66);

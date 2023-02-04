@@ -107,6 +107,14 @@ const GalleryCard2 = (props) => {
             flex: 1;
           }
 
+          .gallery-card2-root-class-name9 {
+            flex: 1;
+            height: 100%;
+          }
+          .gallery-card2-root-class-name10 {
+            flex: 1;
+          }
+
           @media (max-width: 767px) {
             .gallery-card2-gallery-card {
               flex-direction: column;
