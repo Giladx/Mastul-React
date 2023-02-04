@@ -20,7 +20,7 @@ class CustomDocument extends Document {
           <style
             dangerouslySetInnerHTML={{
               __html:
-                '\n  html {\n    font-family: Fira Sans;\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 400;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: normal;\n    line-height: 1.15;\n    color: var(--dl-color-gray-black);\n    background-color: var(--dl-color-gray-white);\n    \n  }\n\n  \n\n  ',
+                '\n  html {\n    font-family: Oxygen;\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 400;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: normal;\n    line-height: 1.15;\n    color: var(--dl-color-gray-black);\n    background-color: var(--dl-color-gray-white);\n    \n  }\n\n  \n\n  ',
             }}
             data-tag="default-style-sheet"
           ></style>
@@ -35,10 +35,15 @@ class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
             data-tag="font"
           ></link>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+            data-tag="font"
+          ></link>
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> --><noscript>',
+                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> -->\n<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />\n<noscript>',
             }}
           ></noscript>
         </Head>
@@ -48,7 +53,7 @@ class CustomDocument extends Document {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                "<!-- Your body code here -->\n<!-- <script type=\"text/javascript\"> ... </script> --> \n    <script data-section-id='header' src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>",
+                '<!-- Your body code here -->\n<!-- <script type="text/javascript"> ... </script> --> \n<script data-section-id=\'header\' src=\'https://unpkg.com/@teleporthq/teleport-custom-scripts\'></script>\n<script src="https://unpkg.com/aos@next/dist/aos.js"></script>\n  <script>\n    AOS.init();\n  </script>',
             }}
           ></div>
         </body>
