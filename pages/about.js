@@ -88,11 +88,13 @@ const About = (props) => {
                 data-role="Nav"
                 className="about-nav2"
               >
-                <span className="about-text04">About</span>
-                <span className="about-text05">Resort</span>
-                <span className="about-text06">Restaurant</span>
-                <span className="about-text07">Club</span>
-                <span className="about-text08">Stuff</span>
+                <Link href="/about">
+                  <a className="about-link3">About</a>
+                </Link>
+                <span className="about-text04">Resort</span>
+                <span className="about-text05">Restaurant</span>
+                <span className="about-text06">Club</span>
+                <span className="about-text07">Stuff</span>
               </nav>
               <div className="about-container02">
                 <button className="about-login1 button">Login</button>
@@ -122,14 +124,14 @@ const About = (props) => {
           </div>
         </header>
         <div className="about-hero">
-          <span className="about-text09">
-            <span className="about-text10">Lorem ipsum dolor sit amet</span>
+          <span className="about-text08">
+            <span className="about-text09">Lorem ipsum dolor sit amet</span>
           </span>
-          <h1 className="about-text11">Magnificent things are very simple</h1>
+          <h1 className="about-text10">Magnificent things are very simple</h1>
           <button className="about-button button">Get Started</button>
         </div>
         <div className="about-blog">
-          <h1 className="about-text12">This Week Shows</h1>
+          <h1 className="about-text11">This Week Shows</h1>
           <div className="about-container03">
             <BlogPostCard2
               profile_src="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
@@ -206,7 +208,7 @@ const About = (props) => {
           <div className="about-container12">
             <div className="about-logo1">
               <Link href="/">
-                <a className="about-link3">
+                <a className="about-link4">
                   <img
                     alt="logo"
                     src="/playground_assets/mastulogo-1500h.webp"
@@ -214,33 +216,33 @@ const About = (props) => {
                   />
                 </a>
               </Link>
-              <span className="about-text13">Resort | Restaurant | Club </span>
+              <span className="about-text12">Resort | Restaurant | Club </span>
             </div>
             <div className="about-links-container">
               <div className="about-container13">
                 <div className="about-product-container">
-                  <span className="about-text14">Product</span>
-                  <span className="about-text15">Features</span>
-                  <span className="about-text16">Pricing</span>
-                  <span className="about-text17">Tutorials</span>
-                  <span className="about-text18">Releases</span>
+                  <span className="about-text13">Product</span>
+                  <span className="about-text14">Features</span>
+                  <span className="about-text15">Pricing</span>
+                  <span className="about-text16">Tutorials</span>
+                  <span className="about-text17">Releases</span>
                 </div>
                 <div className="about-company-container">
-                  <span className="about-text19">Company</span>
-                  <span className="about-text20">About</span>
-                  <span className="about-text21">Careers</span>
-                  <span className="about-text22">Contact</span>
-                  <span className="about-text23">Blog</span>
+                  <span className="about-text18">Company</span>
+                  <span className="about-text19">About</span>
+                  <span className="about-text20">Careers</span>
+                  <span className="about-text21">Contact</span>
+                  <span className="about-text22">Blog</span>
                 </div>
               </div>
               <div className="about-container14">
                 <div className="about-contact">
-                  <span className="about-text24">Contact Us</span>
-                  <span className="about-text25">hello@maya.resort</span>
-                  <span className="about-text26">+123 (4567) 890</span>
+                  <span className="about-text23">Contact Us</span>
+                  <span className="about-text24">hello@maya.resort</span>
+                  <span className="about-text25">+123 (4567) 890</span>
                 </div>
                 <div className="about-socials">
-                  <span className="about-text27">Follow Us</span>
+                  <span className="about-text26">Follow Us</span>
                   <div className="about-icon-group1">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
@@ -266,7 +268,7 @@ const About = (props) => {
             </div>
           </div>
           <div className="about-separator"></div>
-          <span className="about-text28">
+          <span className="about-text27">
             © 2021 Mas&apos;Tul, All Rights Reserved.
           </span>
         </footer>
@@ -406,6 +408,10 @@ const About = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .about-link3 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
           .about-text04 {
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -416,9 +422,6 @@ const About = (props) => {
             margin-bottom: var(--dl-space-space-unit);
           }
           .about-text07 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .about-text08 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .about-container02 {
@@ -461,15 +464,15 @@ const About = (props) => {
             background-image: url('/playground_assets/2_16%20-%20foto-1500h.jpg');
             background-position: center;
           }
-          .about-text09 {
+          .about-text08 {
             color: var(--dl-color-gray-white);
             font-size: 0.75rem;
             letter-spacing: 2px;
           }
-          .about-text10 {
+          .about-text09 {
             text-transform: uppercase;
           }
-          .about-text11 {
+          .about-text10 {
             color: var(--dl-color-gray-white);
             font-size: 3rem;
             max-width: 450px;
@@ -499,7 +502,7 @@ const About = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .about-text12 {
+          .about-text11 {
             color: var(--dl-color-gray-white);
             font-size: 4em;
             margin-bottom: var(--dl-space-space-twounits);
@@ -625,14 +628,14 @@ const About = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .about-link3 {
+          .about-link4 {
             display: contents;
           }
           .about-image1 {
             height: 4rem;
             text-decoration: none;
           }
-          .about-text13 {
+          .about-text12 {
             color: var(--dl-color-gray-white);
             margin-top: var(--dl-space-space-oneandhalfunits);
           }
@@ -657,10 +660,14 @@ const About = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .about-text14 {
+          .about-text13 {
             color: var(--dl-color-gray-white);
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .about-text14 {
+            color: var(--dl-color-gray-white);
+            margin-bottom: var(--dl-space-space-unit);
           }
           .about-text15 {
             color: var(--dl-color-gray-white);
@@ -672,10 +679,6 @@ const About = (props) => {
           }
           .about-text17 {
             color: var(--dl-color-gray-white);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .about-text18 {
-            color: var(--dl-color-gray-white);
           }
           .about-company-container {
             flex: 0 0 auto;
@@ -684,10 +687,14 @@ const About = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .about-text19 {
+          .about-text18 {
             color: var(--dl-color-gray-white);
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .about-text19 {
+            color: var(--dl-color-gray-white);
+            margin-bottom: var(--dl-space-space-unit);
           }
           .about-text20 {
             color: var(--dl-color-gray-white);
@@ -698,10 +705,6 @@ const About = (props) => {
             margin-bottom: var(--dl-space-space-unit);
           }
           .about-text22 {
-            color: var(--dl-color-gray-white);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .about-text23 {
             color: var(--dl-color-gray-white);
           }
           .about-container14 {
@@ -717,16 +720,16 @@ const About = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .about-text24 {
+          .about-text23 {
             color: var(--dl-color-gray-white);
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .about-text25 {
+          .about-text24 {
             color: var(--dl-color-gray-white);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-text26 {
+          .about-text25 {
             color: var(--dl-color-gray-white);
           }
           .about-socials {
@@ -735,7 +738,7 @@ const About = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .about-text27 {
+          .about-text26 {
             color: var(--dl-color-gray-white);
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -770,7 +773,7 @@ const About = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             background-color: var(--dl-color-gray-900);
           }
-          .about-text28 {
+          .about-text27 {
             color: var(--dl-color-gray-white);
             align-self: center;
           }
@@ -835,20 +838,25 @@ const About = (props) => {
               width: var(--dl-size-size-small);
               height: var(--dl-size-size-small);
             }
+            .about-link3 {
+              color: var(--dl-color-gray-white);
+              font-size: 3em;
+            }
             .about-text04 {
               color: var(--dl-color-gray-white);
+              font-size: 3em;
             }
             .about-text05 {
               color: var(--dl-color-gray-white);
+              font-size: 3em;
             }
             .about-text06 {
               color: var(--dl-color-gray-white);
+              font-size: 3em;
             }
             .about-text07 {
               color: var(--dl-color-gray-white);
-            }
-            .about-text08 {
-              color: var(--dl-color-gray-white);
+              font-size: 3em;
             }
             .about-login1 {
               color: var(--dl-color-gray-white);
@@ -939,7 +947,7 @@ const About = (props) => {
             .about-image1 {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .about-text13 {
+            .about-text12 {
               margin-top: var(--dl-space-space-twounits);
               text-align: center;
               margin-bottom: var(--dl-space-space-twounits);
@@ -970,20 +978,25 @@ const About = (props) => {
             .about-icon02 {
               fill: #d9d9d9;
             }
+            .about-link3 {
+              color: var(--dl-color-gray-white);
+              font-size: 3em;
+            }
             .about-text04 {
               color: var(--dl-color-gray-white);
+              font-size: 3em;
             }
             .about-text05 {
               color: var(--dl-color-gray-white);
+              font-size: 3em;
             }
             .about-text06 {
               color: var(--dl-color-gray-white);
+              font-size: 3em;
             }
             .about-text07 {
               color: var(--dl-color-gray-white);
-            }
-            .about-text08 {
-              color: var(--dl-color-gray-white);
+              font-size: 3em;
             }
             .about-login1 {
               color: var(--dl-color-gray-white);
@@ -1030,7 +1043,7 @@ const About = (props) => {
             .about-image1 {
               margin-bottom: 0px;
             }
-            .about-text13 {
+            .about-text12 {
               margin-top: var(--dl-space-space-twounits);
               margin-bottom: var(--dl-space-space-twounits);
             }
@@ -1050,7 +1063,7 @@ const About = (props) => {
               align-items: flex-start;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .about-text28 {
+            .about-text27 {
               text-align: center;
             }
           }
