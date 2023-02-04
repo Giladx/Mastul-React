@@ -184,6 +184,7 @@ const Header = (props) => {
             display: flex;
             align-items: center;
             flex-direction: row;
+            justify-content: center;
           }
           .header-link01 {
             color: #ffffff;
