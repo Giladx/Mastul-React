@@ -27,6 +27,7 @@ const About = (props) => {
         <Header
           LogoImage="/playground_assets/mastulogo-1500h.webp"
           NavLink2="https://mayaroyale.com"
+          link_1="/about"
         ></Header>
         <div className="about-blog">
           <h1 className="about-text">This Week Shows</h1>
