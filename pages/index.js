@@ -464,7 +464,7 @@ const Home = (props) => {
             background-position: center;
           }
           .home-text10 {
-            color: var(--dl-color-gray-white);
+            color: var(--dl-color-gray-black);
             font-size: 0.75rem;
             letter-spacing: 2px;
           }
