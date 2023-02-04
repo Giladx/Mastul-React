@@ -188,25 +188,30 @@ const Header = (props) => {
           }
           .header-link01 {
             color: #ffffff;
+            font-size: 1.3em;
             text-decoration: none;
           }
           .header-link02 {
             color: #ffffff;
+            font-size: 1.3em;
             margin-left: var(--dl-space-space-twounits);
             text-decoration: none;
           }
           .header-link03 {
             color: #ffffff;
+            font-size: 1.3em;
             margin-left: var(--dl-space-space-twounits);
             text-decoration: none;
           }
           .header-link04 {
             color: #ffffff;
+            font-size: 1.3em;
             margin-left: var(--dl-space-space-twounits);
             text-decoration: none;
           }
           .header-link05 {
             color: #ffffff;
+            font-size: 1.3em;
             margin-left: var(--dl-space-space-twounits);
             text-decoration: none;
           }
@@ -407,23 +412,23 @@ const Header = (props) => {
             }
             .header-link07 {
               color: var(--dl-color-gray-white);
-              font-size: 3em;
+              font-size: 4em;
             }
             .header-link08 {
               color: var(--dl-color-gray-white);
-              font-size: 3em;
+              font-size: 4em;
             }
             .header-link09 {
               color: var(--dl-color-gray-white);
-              font-size: 3em;
+              font-size: 4em;
             }
             .header-link10 {
               color: var(--dl-color-gray-white);
-              font-size: 3em;
+              font-size: 4em;
             }
             .header-link11 {
               color: var(--dl-color-gray-white);
-              font-size: 3em;
+              font-size: 4em;
             }
             .header-login1 {
               color: var(--dl-color-gray-white);
@@ -439,12 +444,18 @@ const Header = (props) => {
             }
             .header-icon04 {
               fill: #d9d9d9;
+              width: var(--dl-size-size-small);
+              height: var(--dl-size-size-small);
             }
             .header-icon06 {
               fill: #d9d9d9;
+              width: var(--dl-size-size-small);
+              height: var(--dl-size-size-small);
             }
             .header-icon08 {
               fill: #d9d9d9;
+              width: var(--dl-size-size-small);
+              height: var(--dl-size-size-small);
             }
           }
           @media (max-width: 767px) {
@@ -525,8 +536,10 @@ Header.defaultProps = {
   NavLink5: 'Stuff',
   LinkText4: 'Club',
   LinkText2: 'Resort',
+  MLink1: '',
   link_1: '',
   Linktext1: 'About',
+  MLink3: '',
   ButtonLink1: '',
   link_3: '',
   link_4: '',
@@ -541,14 +554,12 @@ Header.defaultProps = {
   ButtonLink3: '',
   NavLink4: 'Club',
   rootClassName: '',
+  MLink2: '',
   link_5: '',
   LoginButtonText: 'Login',
-  LogoImage: '/playground_assets/mastulogo-1500h.webp',
-  MLink1: '',
-  MLink2: '',
-  MLink3: '',
   MLink4: '',
   MLink5: '',
+  LogoImage: '/playground_assets/mastulogo-1500h.webp',
 }
 
 Header.propTypes = {
@@ -561,8 +572,10 @@ Header.propTypes = {
   NavLink5: PropTypes.string,
   LinkText4: PropTypes.string,
   LinkText2: PropTypes.string,
+  MLink1: PropTypes.string,
   link_1: PropTypes.string,
   Linktext1: PropTypes.string,
+  MLink3: PropTypes.string,
   ButtonLink1: PropTypes.string,
   link_3: PropTypes.string,
   link_4: PropTypes.string,
@@ -577,14 +590,12 @@ Header.propTypes = {
   ButtonLink3: PropTypes.string,
   NavLink4: PropTypes.string,
   rootClassName: PropTypes.string,
+  MLink2: PropTypes.string,
   link_5: PropTypes.string,
   LoginButtonText: PropTypes.string,
-  LogoImage: PropTypes.string,
-  MLink1: PropTypes.string,
-  MLink2: PropTypes.string,
-  MLink3: PropTypes.string,
   MLink4: PropTypes.string,
   MLink5: PropTypes.string,
+  LogoImage: PropTypes.string,
 }
 
 export default Header
