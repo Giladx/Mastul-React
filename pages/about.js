@@ -29,6 +29,8 @@ const About = (props) => {
           link_1="/about"
           link_2="https://mayaroyale.com"
           NavLink2="https://mayaroyale.com"
+          link_4="https://mas-tul.com"
+          MLink4="https://mas-tul.com"
         ></Header>
         <div className="about-blog">
           <h1 className="about-text">This Week Shows</h1>
