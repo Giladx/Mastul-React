@@ -401,14 +401,38 @@ const Footer = (props) => {
             .footer-links-container {
               width: 100%;
               align-items: flex-start;
-              flex-direction: row;
+              flex-direction: column;
               justify-content: center;
             }
             .footer-container1 {
-              margin-right: var(--dl-space-space-fourunits);
+              width: 100%;
+              align-items: center;
+              margin-right: 0px;
+              flex-direction: column;
+              justify-content: center;
             }
             .footer-product-container {
-              margin-right: var(--dl-space-space-fourunits);
+              width: 100%;
+              align-items: center;
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-twounits);
+              justify-content: center;
+            }
+            .footer-company-container {
+              width: 100%;
+              align-items: center;
+              margin-bottom: var(--dl-space-space-twounits);
+              justify-content: center;
+            }
+            .footer-container2 {
+              width: 100%;
+              align-items: center;
+              justify-content: center;
+            }
+            .footer-contact {
+              width: 100%;
+              align-items: center;
+              justify-content: center;
             }
           }
           @media (max-width: 479px) {
