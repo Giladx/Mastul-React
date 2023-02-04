@@ -6,7 +6,7 @@ const TestimonialCard2 = (props) => {
   return (
     <>
       <div
-        data-aos="fade"
+        data-aos="fade-right"
         className={`testimonial-card2-testimonial-card ${props.rootClassName} `}
       >
         <div className="testimonial-card2-testimonial">
