@@ -161,16 +161,16 @@ const Home = (props) => {
           }
           .home-hero {
             width: 100%;
-            height: 300px;
+            height: auto;
             display: flex;
             padding: var(--dl-space-space-threeunits);
-            transform: scale(1);
             min-height: auto;
             align-items: center;
             flex-direction: inherit;
-            background-size: cover;
+            background-size: contain;
             justify-content: center;
             background-image: 2e5e56be-160a-431f-b1ba-b8a8e0e3a9e0;
+            background-repeat: no-repeat;
             background-position: top;
             background-attachment: fixed;
           }
@@ -328,10 +328,10 @@ const Home = (props) => {
           .home-testimonial {
             width: 100%;
             display: flex;
-            transform: scale(1);
             background-size: cover;
             justify-content: center;
             background-image: url('/playground_assets/2_16%20-%20foto-1500w.jpg');
+            background-repeat: no-repeat;
             background-position: center;
             background-attachment: fixed;
           }
