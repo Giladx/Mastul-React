@@ -40,14 +40,16 @@ const TestimonialCard4 = (props) => {
             border-radius: 10px;
             flex-direction: column;
             justify-content: flex-start;
+            background-color: var(--dl-color-gray-black);
           }
           .testimonial-card4-icon {
+            fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-medium);
             flex-shrink: 0;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .testimonial-card4-text {
-            color: var(--dl-color-gray-black);
+            color: var(--dl-color-gray-white);
             font-size: 1.15rem;
             padding-top: var(--dl-space-space-threeunits);
             padding-bottom: var(--dl-space-space-threeunits);
@@ -80,13 +82,14 @@ const TestimonialCard4 = (props) => {
             justify-content: space-between;
           }
           .testimonial-card4-text1 {
+            color: var(--dl-color-gray-white);
             font-size: 24px;
             font-style: normal;
             font-weight: 600;
             margin-bottom: 0.25rem;
           }
           .testimonial-card4-text2 {
-            color: var(--dl-color-gray-500);
+            color: var(--dl-color-gray-white);
             font-size: 12px;
             font-style: normal;
             font-weight: 600;

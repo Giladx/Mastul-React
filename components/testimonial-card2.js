@@ -35,6 +35,7 @@ const TestimonialCard2 = (props) => {
             align-items: center;
             border-radius: 10px;
             justify-content: space-between;
+            background-color: var(--dl-color-gray-black);
           }
           .testimonial-card2-testimonial {
             display: flex;
@@ -44,18 +45,18 @@ const TestimonialCard2 = (props) => {
             justify-content: space-between;
           }
           .testimonial-card2-icon {
-            fill: var(--dl-color-gray-black);
+            fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-small);
             flex-shrink: 0;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .testimonial-card2-text {
-            color: var(--dl-color-gray-black);
+            color: var(--dl-color-gray-white);
             font-size: 1.15rem;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .testimonial-card2-text1 {
-            color: var(--dl-color-gray-black);
+            color: var(--dl-color-gray-white);
             font-size: 1.5rem;
             font-weight: 600;
           }
