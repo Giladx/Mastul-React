@@ -31,6 +31,7 @@ const Home = (props) => {
           link_2="https://mayaroyale.com"
           rootClassName="header-root-class-name"
           LoginButtonText="Contact"
+          NavLink2="https://mayaroyale.com"
         ></Header>
         <div id="hero" className="home-hero">
           <span className="home-text">
