@@ -16,6 +16,7 @@ const TestimonialCard4 = (props) => {
           <img
             alt={props.picture_alt}
             src={props.picture_src}
+            loading="lazy"
             className="testimonial-card4-image"
           />
           <div className="testimonial-card4-container">
@@ -119,7 +120,7 @@ const TestimonialCard4 = (props) => {
 
 TestimonialCard4.defaultProps = {
   picture_src:
-    'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3J0cmFpdHxlbnwwfHx8fDE2MjYzNzg5NzI&ixlib=rb-1.2.1&h=1200',
+    'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3J0cmFpdHxlbnwwfHx8fDE2MjYzNzg5NzI&ixlib=rb-1.2.1&w=200',
   picture_alt: 'John Doe',
   role: 'Software Engineer',
   quote:

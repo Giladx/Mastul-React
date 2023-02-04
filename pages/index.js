@@ -149,6 +149,7 @@ const Home = (props) => {
             <img
               alt="image"
               src="https://images.unsplash.com/photo-1496318447583-f524534e9ce1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHx0cm9waWMlMjBkcmlua3xlbnwwfHx8fDE2NzU0MzQ3OTg&amp;ixlib=rb-4.0.3&amp;w=500"
+              loading="lazy"
               className="home-image1"
             />
           </div>
