@@ -13,6 +13,7 @@ const Header = (props) => {
               <img
                 alt={props.LogoAlt}
                 src={props.LogoImage}
+                data-aos="fade-right"
                 className="header-logo"
               />
             </a>
