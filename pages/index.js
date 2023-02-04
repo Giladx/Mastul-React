@@ -18,7 +18,7 @@ const Home = (props) => {
           <meta property="og:description" content=" Club " />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/af469c8d-b822-45c5-80f3-94b54b452234/05a95b07-91ac-4e1d-aca9-4de211ba2a09?org_if_sml=1"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/af469c8d-b822-45c5-80f3-94b54b452234/f7f77140-99b9-48e5-a0ac-58b2a38c3a8e?org_if_sml=1&amp;q=80"
           />
         </Head>
         <header data-thq="thq-navbar" className="home-navbar-interactive">
