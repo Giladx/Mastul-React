@@ -161,7 +161,7 @@ const Home = (props) => {
           }
           .home-hero {
             width: 100%;
-            height: 800;
+            height: 800px;
             display: flex;
             padding: var(--dl-space-space-threeunits);
             min-height: auto;
@@ -171,7 +171,7 @@ const Home = (props) => {
             justify-content: center;
             background-image: url('/playground_assets/24small1-1500w.webp');
             background-repeat: no-repeat;
-            background-position: top;
+            background-position: bottom;
             background-attachment: fixed;
           }
           .home-text {
