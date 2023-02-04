@@ -459,12 +459,14 @@ const Footer = (props) => {
             }
             .footer-container2 {
               margin-top: var(--dl-space-space-oneandhalfunits);
-              align-items: flex-start;
+              align-items: center;
               margin-bottom: 0px;
+              justify-content: center;
             }
             .footer-contact {
-              align-items: flex-start;
+              align-items: center;
               margin-bottom: var(--dl-space-space-unit);
+              justify-content: center;
             }
             .footer-text2 {
               text-align: center;
