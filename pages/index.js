@@ -27,8 +27,8 @@ const Home = (props) => {
           />
         </Head>
         <Header
-          rootClassName="header-root-class-name"
           link_1="/about"
+          rootClassName="header-root-class-name"
           LoginButtonText="Contact"
         ></Header>
         <div id="hero" className="home-hero">
@@ -47,19 +47,19 @@ const Home = (props) => {
           <div className="home-container01">
             <div className="home-container02">
               <FeatureCard4
-                title="The Resort"
+                Title="The Resort"
                 rootClassName="rootClassName1"
               ></FeatureCard4>
               <FeatureCard4
-                title="The Club"
+                Title="The Club"
                 rootClassName="rootClassName4"
               ></FeatureCard4>
               <FeatureCard4
-                title="The Restaurant"
+                Title="The Restaurant"
                 rootClassName="rootClassName3"
               ></FeatureCard4>
               <FeatureCard4
-                title="Top Staff"
+                Title="Top Staff"
                 rootClassName="rootClassName2"
               ></FeatureCard4>
             </div>
