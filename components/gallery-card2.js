@@ -92,10 +92,18 @@ const GalleryCard2 = (props) => {
           .gallery-card2-root-class-name {
             flex: 1;
           }
+          .gallery-card2-root-class-name1 {
+            flex: 1;
+            height: 100%;
+          }
 
           .gallery-card2-root-class-name4 {
             flex: 1;
             height: 100%;
+          }
+
+          .gallery-card2-root-class-name6 {
+            flex: 1;
           }
 
           @media (max-width: 767px) {

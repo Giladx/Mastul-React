@@ -65,10 +65,16 @@ const TestimonialCard2 = (props) => {
             flex-shrink: 0;
             border-radius: var(--dl-radius-radius-round);
           }
+          .testimonial-card2-root-class-name {
+            align-self: flex-start;
+          }
           .testimonial-card2-root-class-name1 {
             align-self: flex-start;
           }
           .testimonial-card2-root-class-name2 {
+            align-self: flex-start;
+          }
+          .testimonial-card2-root-class-name3 {
             align-self: flex-start;
           }
           @media (max-width: 767px) {
