@@ -12,13 +12,16 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Mas`tul</title>
-          <meta name="description" content=" Club " />
-          <meta property="og:title" content="Mas`tul" />
-          <meta property="og:description" content=" Club " />
+          <title>Mas'Tul</title>
+          <meta name="description" content="Beach Club | Bar | Restaurant" />
+          <meta property="og:title" content="Mas'Tul" />
+          <meta
+            property="og:description"
+            content="Beach Club | Bar | Restaurant"
+          />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/af469c8d-b822-45c5-80f3-94b54b452234/f7f77140-99b9-48e5-a0ac-58b2a38c3a8e?org_if_sml=1&amp;q=80"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/af469c8d-b822-45c5-80f3-94b54b452234/4994a0a3-9f14-4ef6-9977-9580ab924499?org_if_sml=1&amp;q=80"
           />
         </Head>
         <header data-thq="thq-navbar" className="home-navbar-interactive">
