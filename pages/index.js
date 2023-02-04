@@ -157,6 +157,7 @@ const Home = (props) => {
           }
           .home-hero {
             width: 100%;
+            height: 1000px;
             display: flex;
             padding: var(--dl-space-space-threeunits);
             min-height: auto;
@@ -164,7 +165,7 @@ const Home = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/24small1-1500w.webp');
+            background-image: url('/playground_assets/24small1-1000h.webp');
             background-position: center;
           }
           .home-text {
@@ -358,7 +359,7 @@ const Home = (props) => {
           @media (max-width: 1600px) {
             .home-hero {
               background-size: cover;
-              background-image: url('/playground_assets/24small1-1500w.webp');
+              background-image: url('/playground_assets/24small1-1000h.webp');
             }
             .home-text2 {
               color: var(--dl-color-gray-white);
