@@ -485,7 +485,7 @@ const Home = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/2_16%20-%20foto-1500w.jpg');
+            background-image: url('/playground_assets/24small1-1500h.webp');
             background-position: center;
           }
           .home-text09 {
@@ -854,7 +854,7 @@ const Home = (props) => {
           @media (max-width: 1600px) {
             .home-hero {
               background-size: cover;
-              background-image: url('/playground_assets/2_16%20-%20foto-1500w.jpg');
+              background-image: be0a4a87-1dc7-4c7b-a972-e769a36eadb5;
             }
             .home-text11 {
               color: var(--dl-color-gray-black);
