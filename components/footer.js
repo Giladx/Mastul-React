@@ -463,7 +463,7 @@ Footer.defaultProps = {
   FLogoAlt: 'logo',
   PhoneNo: '',
   FLogoImage: '',
-  FLogoImageUrl: '/playground_assets/mastulogo-1500h.webp',
+  FLogoImageUrl: '/playground_assets/mastulogo2-1500h.webp',
   LinkURL4: '',
   LinkURL2: '',
   LinkURL1: '',

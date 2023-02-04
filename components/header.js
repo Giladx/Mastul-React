@@ -531,7 +531,7 @@ Header.defaultProps = {
   NavLink1: 'About',
   NavLink2: 'Resort',
   ButtonText: 'Order',
-  MLogoImage: '/playground_assets/mastulogo-1500h.webp',
+  MLogoImage: '/playground_assets/mastulogo2-1500h.webp',
   ButtonLink4: '',
   link_2: '',
   MLogoAlt: 'Logo',
@@ -544,7 +544,7 @@ Header.defaultProps = {
   LoginButtonText: 'Login',
   MLink4: '',
   MLink5: '',
-  LogoImage: '/playground_assets/mastulogo-1500h.webp',
+  LogoImage: '/playground_assets/mastulogo2-1500h.webp',
 }
 
 Header.propTypes = {
