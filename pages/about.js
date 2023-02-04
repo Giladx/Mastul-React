@@ -132,7 +132,7 @@ const About = (props) => {
             background-position: center;
           }
           .about-text {
-            color: var(--dl-color-gray-white);
+            color: var(--dl-color-gray-black);
             font-size: 0.75rem;
             letter-spacing: 2px;
           }
@@ -140,7 +140,7 @@ const About = (props) => {
             text-transform: uppercase;
           }
           .about-text2 {
-            color: var(--dl-color-gray-white);
+            color: var(--dl-color-gray-black);
             font-size: 3rem;
             max-width: 450px;
             margin-top: var(--dl-space-space-twounits);
@@ -307,6 +307,9 @@ const About = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
+            }
+            .about-text2 {
+              color: var(--dl-color-gray-black);
             }
             .about-blog {
               padding-top: var(--dl-space-space-twounits);
