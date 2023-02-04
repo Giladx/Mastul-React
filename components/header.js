@@ -84,12 +84,7 @@ const Header = (props) => {
                 data-role="Nav"
                 className="header-nav2"
               >
-                <a
-                  href={props.MLink1}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="header-link07"
-                >
+                <a href={props.MLink1} className="header-link07">
                   {props.NavLink1}
                 </a>
                 <a href={props.MLink2} className="header-link08">
@@ -98,20 +93,10 @@ const Header = (props) => {
                 <a href={props.MLink3} className="header-link09">
                   {props.NavLink3}
                 </a>
-                <a
-                  href={props.MLink4}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="header-link10"
-                >
+                <a href={props.MLink4} className="header-link10">
                   {props.NavLink4}
                 </a>
-                <a
-                  href={props.MLink5}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="header-link11"
-                >
+                <a href={props.MLink5} className="header-link11">
                   {props.NavLink5}
                 </a>
               </nav>
