@@ -159,12 +159,12 @@ const Home = (props) => {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
-            min-height: 80vh;
+            min-height: auto;
             align-items: center;
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/24small1-1500h.webp');
+            background-image: url('/playground_assets/24small1-1500w.webp');
             background-position: center;
           }
           .home-text {
@@ -358,7 +358,7 @@ const Home = (props) => {
           @media (max-width: 1600px) {
             .home-hero {
               background-size: cover;
-              background-image: url('/playground_assets/24small1-1500h.webp');
+              background-image: url('/playground_assets/24small1-1500w.webp');
             }
             .home-text2 {
               color: var(--dl-color-gray-white);

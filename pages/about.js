@@ -123,6 +123,7 @@ const About = (props) => {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
+            transform: scale(2, 2);
             min-height: 80vh;
             align-items: center;
             flex-direction: column;
@@ -303,10 +304,11 @@ const About = (props) => {
           }
           @media (max-width: 479px) {
             .about-hero {
-              padding-top: var(--dl-space-space-twounits);
+              padding: var(--dl-space-space-twounits);
+              padding-top: var(--dl-space-space-unit);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-twounits);
+              padding-bottom: var(--dl-space-space-unit);
             }
             .about-text2 {
               color: var(--dl-color-gray-black);
