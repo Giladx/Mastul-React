@@ -30,6 +30,7 @@ const Home = (props) => {
           link_1="/about"
           rootClassName="header-root-class-name"
           LoginButtonText="Contact"
+          link_2="https://mayaroyale.com"
         ></Header>
         <div id="hero" className="home-hero">
           <span className="home-text">
