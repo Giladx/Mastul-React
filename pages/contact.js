@@ -37,7 +37,7 @@ const Contact = (props) => {
         <div className="contact-main">
           <div className="contact-div">
             <DangerousHTML
-              html={`<iframe id="" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://my.forms.app/form/63dedafe6c5c2579e21b2c00?localData=true" frameborder="0" style="width: 1px; min-width:100%; height:100vh; border:none;"></iframe>`}
+              html={`<iframe id="" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://my.forms.app/form/63dedafe6c5c2579e21b2c00?localData=true" frameborder="0" style="width: 1px; min-width:100%; height:500px; border:none;"></iframe>`}
             ></DangerousHTML>
           </div>
         </div>
