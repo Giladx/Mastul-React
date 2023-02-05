@@ -445,6 +445,26 @@ const Footer = (props) => {
               margin-bottom: var(--dl-space-space-twounits);
               justify-content: center;
             }
+            .footer-title2 {
+              width: 100%;
+              text-align: center;
+            }
+            .footer-link21 {
+              width: 100%;
+              text-align: center;
+            }
+            .footer-link22 {
+              width: 100%;
+              text-align: center;
+            }
+            .footer-link23 {
+              width: 100%;
+              text-align: center;
+            }
+            .footer-link24 {
+              width: 100%;
+              text-align: center;
+            }
             .footer-container2 {
               width: 100%;
               align-items: center;
@@ -453,6 +473,29 @@ const Footer = (props) => {
             .footer-contact {
               width: 100%;
               align-items: center;
+              justify-content: center;
+            }
+            .footer-title3 {
+              width: 100%;
+              text-align: center;
+            }
+            .footer-email {
+              width: 100%;
+              text-align: center;
+            }
+            .footer-phone {
+              width: 100%;
+              text-align: center;
+            }
+            .footer-socials {
+              width: 100%;
+            }
+            .footer-text1 {
+              width: 100%;
+              text-align: center;
+            }
+            .footer-icon-group {
+              align-self: center;
               justify-content: center;
             }
           }
@@ -472,7 +515,6 @@ const Footer = (props) => {
               margin-bottom: var(--dl-space-space-twounits);
             }
             .footer-links-container {
-              align-items: center;
               flex-direction: column;
             }
             .footer-container1 {
