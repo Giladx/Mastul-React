@@ -7,6 +7,7 @@ import './testimonial-card2.css'
 const TestimonialCard2 = (props) => {
   return (
     <div
+      data-aos="fade-right"
       className={`testimonial-card2-testimonial-card ${props.rootClassName} `}
     >
       <div className="testimonial-card2-testimonial">

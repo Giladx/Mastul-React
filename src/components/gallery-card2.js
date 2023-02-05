@@ -7,6 +7,7 @@ import './gallery-card2.css'
 const GalleryCard2 = (props) => {
   return (
     <div
+      data-aos="fade"
       className={`gallery-card2-gallery-card gradient-box ${props.rootClassName} `}
     >
       <div className="gallery-card2-container">

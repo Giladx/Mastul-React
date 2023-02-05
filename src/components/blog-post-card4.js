@@ -8,6 +8,7 @@ import './blog-post-card4.css'
 const BlogPostCard4 = (props) => {
   return (
     <div
+      data-aos="fade-up"
       className={`blog-post-card4-blog-post-card gradient-box ${props.rootClassName} `}
     >
       <img

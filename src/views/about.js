@@ -25,9 +25,21 @@ const About = (props) => {
           content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/af469c8d-b822-45c5-80f3-94b54b452234/4994a0a3-9f14-4ef6-9977-9580ab924499?org_if_sml=1&amp;q=80"
         />
       </Helmet>
-      <Header></Header>
+      <Header
+        MLink1="/about"
+        MLink2="https://mayaroyale.com"
+        MLink4="https://mas-tul.com"
+        link_1="/about"
+        link_2="https://mayaroyale.com"
+        link_4="https://mas-tul.com"
+        LogoImage="/playground_assets/mastulogo2-1500h.webp"
+        MLogoImage="/playground_assets/mastulogo2-1500h.webp"
+        ButtonLink1="/contact"
+      ></Header>
       <div className="about-blog">
-        <h1 className="about-text">This Week Shows</h1>
+        <h1 data-aos="fade-down" className="about-text">
+          This Week Shows
+        </h1>
         <div className="about-container01">
           <BlogPostCard2
             profile_src="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"

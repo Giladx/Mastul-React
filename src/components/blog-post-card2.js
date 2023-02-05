@@ -6,7 +6,10 @@ import './blog-post-card2.css'
 
 const BlogPostCard2 = (props) => {
   return (
-    <div className={`blog-post-card2-blog-post-card ${props.rootClassName} `}>
+    <div
+      data-aos="fade-up"
+      className={`blog-post-card2-blog-post-card ${props.rootClassName} `}
+    >
       <img
         alt={props.image_alt}
         src={props.image_src}

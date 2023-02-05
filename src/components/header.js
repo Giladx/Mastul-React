@@ -13,6 +13,7 @@ const Header = (props) => {
           <img
             alt={props.LogoAlt}
             src={props.LogoImage}
+            data-aos="fade-right"
             className="header-logo"
           />
         </Link>
@@ -26,19 +27,19 @@ const Header = (props) => {
             data-role="Nav"
             className="header-nav"
           >
-            <a href={props.link_1} className="header-link">
+            <a href={props.link_1} data-aos="fade" className="header-link">
               {props.Linktext1}
             </a>
-            <a href={props.link_2} className="header-link01">
+            <a href={props.link_2} data-aos="fade" className="header-link01">
               {props.LinkText2}
             </a>
-            <a href={props.link_3} className="header-link02">
+            <a href={props.link_3} data-aos="fade" className="header-link02">
               {props.LinkText3}
             </a>
-            <a href={props.link_4} className="header-link03">
+            <a href={props.link_4} data-aos="fade" className="header-link03">
               {props.LinkText4}
             </a>
-            <a href={props.link_5} className="header-link04">
+            <a href={props.link_5} data-aos="fade" className="header-link04">
               {props.LinkText5}
             </a>
           </nav>
@@ -87,12 +88,7 @@ const Header = (props) => {
               data-role="Nav"
               className="header-nav2"
             >
-              <a
-                href={props.MLink1}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="header-link05"
-              >
+              <a href={props.MLink1} className="header-link05">
                 {props.NavLink1}
               </a>
               <a href={props.MLink2} className="header-link06">
@@ -101,29 +97,19 @@ const Header = (props) => {
               <a href={props.MLink3} className="header-link07">
                 {props.NavLink3}
               </a>
-              <a
-                href={props.MLink4}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="header-link08"
-              >
+              <a href={props.MLink4} className="header-link08">
                 {props.NavLink4}
               </a>
-              <a
-                href={props.MLink5}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="header-link09"
-              >
+              <a href={props.MLink5} className="header-link09">
                 {props.NavLink5}
               </a>
             </nav>
             <div className="header-container1">
-              <a href={props.ButtonLink3} className="header-login1 button">
-                {props.LoginButtonText}
-              </a>
-              <a href={props.ButtonLink4} className="header-register1 button">
+              <Link to="/contact" className="header-login1 button">
                 {props.ButtonText3}
+              </Link>
+              <a href={props.ButtonLink4} className="header-register1 button">
+                {props.ButtonText}
               </a>
             </div>
           </div>
@@ -155,7 +141,7 @@ const Header = (props) => {
 
 Header.defaultProps = {
   ButtonText1: 'Contact',
-  ButtonText3: 'Order',
+  ButtonText3: 'Contact',
   LogoAlt: 'logo',
   NavLink3: 'Restaurant',
   ButtonLink2: '',
@@ -173,7 +159,7 @@ Header.defaultProps = {
   NavLink1: 'About',
   NavLink2: 'Resort',
   ButtonText: 'Order',
-  MLogoImage: '/playground_assets/mastulogo-1500h.webp',
+  MLogoImage: '/playground_assets/mastulogo2-1500h.webp',
   ButtonLink4: '',
   link_2: '',
   MLogoAlt: 'Logo',
@@ -186,7 +172,7 @@ Header.defaultProps = {
   LoginButtonText: 'Login',
   MLink4: '',
   MLink5: '',
-  LogoImage: '/playground_assets/mastulogo-1500h.webp',
+  LogoImage: '/playground_assets/mastulogo2-1500h.webp',
 }
 
 Header.propTypes = {
