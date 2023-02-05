@@ -4,7 +4,6 @@ import Head from 'next/head'
 import DangerousHTML from 'dangerous-html/react'
 
 import Header from '../components/header'
-import BlogPostCard4 from '../components/blog-post-card4'
 import Footer from '../components/footer'
 
 const Contact = (props) => {
@@ -25,45 +24,22 @@ const Contact = (props) => {
           />
         </Head>
         <Header
-          LogoImage="/playground_assets/mastulogo2-1500h.webp"
+          MLink1="/about"
+          MLink2="https://mayaroyale.com"
+          MLink4="https://mas-tul.com"
           link_1="/about"
           link_2="https://mayaroyale.com"
-          MLink4="https://mas-tul.com"
-          MLogoImage="/playground_assets/mastulogo2-1500h.webp"
-          MLink1="/about"
           link_4="https://mas-tul.com"
-          MLink2="https://mayaroyale.com"
+          LogoImage="/playground_assets/mastulogo2-1500h.webp"
+          MLogoImage="/playground_assets/mastulogo2-1500h.webp"
           ButtonLink1="/contact"
         ></Header>
         <div className="contact-main">
-          <div>
+          <div className="contact-div">
             <DangerousHTML
-              html={`<div formsappId="63dedafe6c5c2579e21b2c00"></div><script src="https://my.forms.app/static/iframe.js" type="text/javascript"></script><script>new formsapp('63dedafe6c5c2579e21b2c00', {width: '100%',height: '100vh'});</script>`}
+              html={`<iframe id="" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://my.forms.app/form/63dedafe6c5c2579e21b2c00?localData=true" frameborder="0" style="width: 1px; min-width:100%; height:100vh; border:none;"></iframe>`}
             ></DangerousHTML>
           </div>
-        </div>
-        <div id="blog" className="contact-blog">
-          <BlogPostCard4
-            label="Travel"
-            image_src="https://images.unsplash.com/photo-1638061758086-7f577cf7ab25?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwfHx0cm9waWMlMjBkcmlua3xlbnwwfHx8fDE2NzU0MzQ3OTg&amp;ixlib=rb-4.0.3&amp;w=1500"
-            rootClassName="rootClassName9"
-          ></BlogPostCard4>
-          <div className="contact-container1">
-            <BlogPostCard4
-              label="Club Party"
-              image_src="https://images.unsplash.com/photo-1527271982979-83fea3eb3582?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDM3fHx0cm9waWMlMjBkcmlua3xlbnwwfHx8fDE2NzU0MzQ4NTM&amp;ixlib=rb-4.0.3&amp;w=1500"
-              rootClassName="rootClassName11"
-            ></BlogPostCard4>
-            <BlogPostCard4
-              image_src="https://images.unsplash.com/photo-1499638673689-79a0b5115d87?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHx0cm9waWMlMjBkcmlua3xlbnwwfHx8fDE2NzU0MzQ3OTg&amp;ixlib=rb-4.0.3&amp;w=1500"
-              rootClassName="rootClassName12"
-            ></BlogPostCard4>
-          </div>
-          <BlogPostCard4
-            date="JULY 10"
-            image_src="https://images.unsplash.com/photo-1638061714820-ab12cbbeb87e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEyfHx0cm9waWMlMjBkcmlua3xlbnwwfHx8fDE2NzU0MzQ3OTg&amp;ixlib=rb-4.0.3&amp;w=1500"
-            rootClassName="rootClassName10"
-          ></BlogPostCard4>
         </div>
         <Footer></Footer>
       </div>
@@ -79,54 +55,23 @@ const Contact = (props) => {
             background-color: var(--dl-color-gray-black);
           }
           .contact-main {
-            flex: 0 0 auto;
             width: 100%;
-            height: 100px;
+            height: 500px;
             display: flex;
             align-items: flex-start;
           }
-          .contact-blog {
-            width: 100%;
-            display: flex;
-            padding: var(--dl-space-space-threeunits);
-            max-width: 100%;
-            align-items: center;
-            justify-content: space-between;
-            background-color: var(--dl-color-gray-black);
-          }
-          .contact-container1 {
+          .contact-div {
             width: 100%;
             height: auto;
-            display: flex;
-            align-items: flex-start;
-            margin-left: var(--dl-space-space-twounits);
-            margin-right: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: flex-start;
           }
           @media (max-width: 1600px) {
             .contact-main {
               height: auto;
             }
           }
-          @media (max-width: 767px) {
-            .contact-blog {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-              flex-direction: column;
-            }
-            .contact-container1 {
-              flex: 0 0 auto;
-              margin-left: 0px;
-              margin-right: 0px;
-            }
-          }
-          @media (max-width: 479px) {
-            .contact-blog {
-              padding-top: var(--dl-space-space-twounits);
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-twounits);
+          @media (max-width: 991px) {
+            .contact-main {
+              height: 50vh;
             }
           }
         `}

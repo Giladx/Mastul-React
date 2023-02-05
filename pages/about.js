@@ -25,14 +25,14 @@ const About = (props) => {
           />
         </Head>
         <Header
-          LogoImage="/playground_assets/mastulogo2-1500h.webp"
+          MLink1="/about"
+          MLink2="https://mayaroyale.com"
+          MLink4="https://mas-tul.com"
           link_1="/about"
           link_2="https://mayaroyale.com"
-          MLink4="https://mas-tul.com"
-          MLogoImage="/playground_assets/mastulogo2-1500h.webp"
-          MLink1="/about"
           link_4="https://mas-tul.com"
-          MLink2="https://mayaroyale.com"
+          LogoImage="/playground_assets/mastulogo2-1500h.webp"
+          MLogoImage="/playground_assets/mastulogo2-1500h.webp"
           ButtonLink1="/contact"
         ></Header>
         <div className="about-blog">

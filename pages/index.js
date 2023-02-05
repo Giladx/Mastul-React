@@ -27,13 +27,13 @@ const Home = (props) => {
           />
         </Head>
         <Header
+          MLink1="/about"
+          MLink2="https://www.mayaroyale.com/"
           link_1="/about"
+          link_2="https://www.mayaroyale.com/"
+          ButtonLink1="/contact"
           rootClassName="header-root-class-name"
           LoginButtonText="Contact"
-          MLink2="https://www.mayaroyale.com/"
-          link_2="https://www.mayaroyale.com/"
-          MLink1="/about"
-          ButtonLink1="/contact"
         ></Header>
         <div id="hero" data-aos="fade" className="home-hero">
           <span data-aos="fade-down" className="home-text">
