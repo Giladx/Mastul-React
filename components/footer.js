@@ -416,7 +416,28 @@ const Footer = (props) => {
               align-items: center;
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-twounits);
+              flex-direction: column;
               justify-content: center;
+            }
+            .footer-title1 {
+              width: 100%;
+              text-align: center;
+            }
+            .footer-link1 {
+              width: 100%;
+              text-align: center;
+            }
+            .footer-link2 {
+              width: 100%;
+              text-align: center;
+            }
+            .footer-link3 {
+              width: 100%;
+              text-align: center;
+            }
+            .footer-link4 {
+              width: 100%;
+              text-align: center;
             }
             .footer-company-container {
               width: 100%;
